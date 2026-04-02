@@ -15,7 +15,7 @@ function Hero(){
                     <p>
                         Desarrollo interfaces web modernas, limpias y funcionales utilizando React, Angular y Vue.
                     </p>. 
-                    <button className={styles.button}>Ver CV</button>
+                    <button className={styles.button}><a href="https://drive.google.com/file/d/1q9ZFSm2nvGUcaNuUA3fdy3OKoSb3IW4E/view?usp=sharing" target='_blank'>Ver CV</a></button>
                 </div>
                 <div className={styles.photo}>
                     <img src={image} alt="veronica" />

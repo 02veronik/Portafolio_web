@@ -23,7 +23,7 @@ function Navbar(){
 
     return (
         <>
-        <nav className={`${styles.navbar} ${scrolled && menuOpen ? styles.scrolled : ''}`}>
+        <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
 
             <div className={styles.menuToggle} onClick={() => setMenuOpen(!menuOpen)}>
                 <IoMenu />
